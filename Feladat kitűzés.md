@@ -56,19 +56,13 @@
 - a csapatmunka megvalósítása: 4 pont 
 
 # Ütemezés
-## 2025. janauár vége környezet
-- feladat megértés
-- github repó létrehozás, kollaboráció megvalósítása
-- kommunikációs környezet kialakítás
-- ütemterv elkészítés
-- fejlesztési környezet létrehozás
-## 2025. február adatbázis, backend
+## 2026. január: backend 
 - adatbázis tervezés
 - migráció
 - diagram
 - seederek
 - teszt és éles adatbázis
-- felöltés teszt adatokkal (tárolt eljárással)
+- feltöltés teszt adatokkal (tárolt eljárással)
 - hitelesítés
 - crud endpointok
 - query endponintok
@@ -77,19 +71,31 @@
     - unit
     - funkcionális
     - integrációs
-- backend dokumentálás    
+- backend dokumentálás 
+## 2026. február Frontend mintafeladat
+[school mintaprojekt](https://github.com/kovacsnandor/School_2026)   
 
-## 2025. március frontend
+## 2026. március frontend
+- induló csomag
 - frontend környezet felállítás
 - menü szerkezet
-- crud műveletek
-- egyéb műveletek
-- frontend tesztek
-    - unit
-    - funkcionális
-    - integrációs
-- frontend dokumentálás
-## 2025. április
+    - jogrendhez illeszkedjen
+- dizájn
+    - reszponzív
+- crud műveletek alapjai
+    - axios
+    - services fájlok
+    - stores fájlok
+- Login környezet
+- Adatkarbantartó űrlapok
+- Egyéb funkciók megvalósítása
+
+
+
+
+
+
+## 2026. április
 - utolsó simítások
 - dokumentáció befejezés
 - előadás elkészítése (ppt)
