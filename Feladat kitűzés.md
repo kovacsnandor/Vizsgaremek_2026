@@ -90,11 +90,6 @@
 - Adatkarbantartó űrlapok
 - Egyéb funkciók megvalósítása
 
-
-
-
-
-
 ## 2026. április
 - utolsó simítások
 - dokumentáció befejezés
@@ -104,7 +99,7 @@
     - magyar nyelvű rész
     - szereposztások
 
-# Általános feladtok
+# Általános feladatok
 A feladatot az alábbi előírásoknak megfelelően kell elkészíteni
 
 ## Fejlesztési környezet
@@ -259,7 +254,6 @@ Ez már ne legyen a repóban
                 - Ajax kérések
                 - Speciális feladatok
                 - Kliens oldali tesztek
-
 
 # Egyéb előírások
 - nyelvi előírások
