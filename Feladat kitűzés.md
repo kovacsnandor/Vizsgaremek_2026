@@ -113,8 +113,8 @@ A feladatot az alábbi előírásoknak megfelelően kell elkészíteni
 - itt kell fejleszteni
 - a repo neve: a feladat neve
 Két mappa:
-- `Backend`
-- `Frontend`
+- `server`
+- `client`
 - `DokumnetacioKepek`
 ### Dokumentumok
 A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elnevezésekkel
@@ -135,7 +135,7 @@ A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elneve
         - Backend
             - A technológia
                 - Laravel, és hogy települ
-                - Használt laravel parancsok
+                - A munkához használt laravel parancsok
             - Migráció
                 - Mintakód, leírás
             - Seeder
@@ -149,10 +149,11 @@ A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elneve
                 - Minta endpointok kódja, rövid leírása
                     - Minta kontroller
                     - Minta model
-                    - Minta validáció
+                    - Minta validáció (422)
             - Autentikáció
-                - Bejelentkezés
+                - Be és kijelentkezés
                 - Token
+                - Jogosulsági szintek
 
         - Frontend leírás
             - Milyen modulok
@@ -165,6 +166,7 @@ A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elneve
                 - Menü szinten
                 - Route szinten   
             - Milyen fájlok
+                - api
                 - store (pinia)
                 - komponensek
                 - views
@@ -176,7 +178,7 @@ A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elneve
                 - komponensek 
                 - dizájn, reszponzivitás   
 
-        - Forráslista a munkához
+        - Forráslista a munkához (honnan gyűjtöttünk anyagok)
 
 - `Tesztek.md` (A tesztekhez végzett kód, valamint a teszteredmények dokumentációja)
     - Kézi teszt: pingelés (request rest)
@@ -189,9 +191,10 @@ A dokumentumok a repo gyökér könyvtárába kerüljenek, pontosan ilyen elneve
         - End-point tesztek
         - Teszt lefutási képernyőkép dokumentálása
     - Frontend tesztek
-        - Teszt fajta megnevezése
-        - A tesztek kódja
-        - A teszt eredményének dokumentálása
+        - Teszt fajta megnevezése: Vitest, E2E test (Cypress)
+        - Néhány tipikus teszt mintakód, magyarázat
+        - A teszt eredményének dokumentálása: 
+            - Fájlba irányítható tesztek eredménye, vagy hivatkozása
 
 - `Diagram.png` (Az adatbázis adatbázismodell-diagramja)
 - `AdatbazisBackup.sql` (Az adatbázis export fájlja)
@@ -276,6 +279,4 @@ Ez már ne legyen a repóban
         - adminisztrátor: teljes joggal szerkesztheti az adatokat
         - vendég: olvashatja az adatokat
         - Az oldal betöltésekor kötelező vagy regisztrálni, vagy belépni.
-
-# A kiosztott feladatok
 
