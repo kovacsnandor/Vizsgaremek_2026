@@ -327,3 +327,6 @@ php parancs
 php artisan migrate
 ```
 
+
+első sor
+második sor
