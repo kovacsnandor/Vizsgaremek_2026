@@ -274,3 +274,7 @@ Ez már ne legyen a repóban
         - vendég: olvashatja az adatokat
         - Az oldal betöltésekor kötelező vagy regisztrálni, vagy belépni.
 
+
+# Mintakép
+![Valami kép](Kepek/tablakep.png)     
+
