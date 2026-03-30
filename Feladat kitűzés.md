@@ -278,5 +278,22 @@ Ez már ne legyen a repóban
 # Mintakép
 ![Valami kép](Kepek/tablakep.png)  
 # Link
-[text](https://github.com/kovacsnandor/Vizsgaremek_2026/blob/main/Feladat%20kit%C5%B1z%C3%A9s.md#mintak%C3%A9p)   
+[link](https://github.com/kovacsnandor/Vizsgaremek_2026/blob/main/Feladat%20kit%C5%B1z%C3%A9s.md#mintak%C3%A9p) 
+
+# Mintakód
+Mintakód.js
+```js
+ it("Sikertelen login üres mezőkkel (Bootstrap validáció)", () => {
+    // Megnyomjuk a gombot anélkül, hogy írnánk valamit
+    cy.get('button[type="submit"]').click();
+
+    // Ellenőrizzük, hogy a form megkapta-e a Bootstrap 'was-validated' osztályát
+    cy.get("form").should("have.class", "was-validated");
+
+    // Ellenőrizzük, hogy a hibaüzenet látható-e
+    cy.get(".invalid-feedback")
+      .should("be.visible")
+      .and("contain", "Az email üres");
+  });
+```
 
