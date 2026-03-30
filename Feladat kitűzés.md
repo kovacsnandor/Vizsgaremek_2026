@@ -276,5 +276,7 @@ Ez már ne legyen a repóban
 
 
 # Mintakép
-![Valami kép](Kepek/tablakep.png)     
+![Valami kép](Kepek/tablakep.png)  
+# Link
+[text](https://github.com/kovacsnandor/Vizsgaremek_2026/blob/main/Feladat%20kit%C5%B1z%C3%A9s.md#mintak%C3%A9p)   
 
