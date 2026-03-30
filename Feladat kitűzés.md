@@ -328,5 +328,5 @@ php artisan migrate
 ```
 
 
-első sor  
+első sor.
 második sor
